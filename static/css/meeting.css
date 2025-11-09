@@ -1,87 +1,85 @@
 .meeting {
-    position: relative;
+  position: relative;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    min-width: 1200px;
-    height: 700px;
+  min-width: 1200px;
+  height: 700px;
 }
 
 #mt-title {
-    position: absolute;
-    left: 190px;
-    top: 80px;
-    width: 240px;
-    height: 80px;
+  position: absolute;
+  left: 190px;
+  top: 80px;
+  width: 240px;
+  height: 80px;
 }
 
 .share {
-    position: absolute;
-    top: 130px;
+  position: absolute;
+  top: 130px;
 
-    box-sizing: border-box;
-    width: 1200px;
+  box-sizing: border-box;
+  width: 1200px;
 }
 
 .share span {
-    position: absolute;
-    left: 190px;
-    font-size: 55px;
-    font-weight: 550;
+  position: absolute;
+  left: 190px;
+  font-size: 55px;
+  font-weight: 550;
 }
-
 
 .s-left,
 .s-right {
-    float: left;
+  float: left;
 
-    width: 590px;
-    height: 420px;
+  width: 590px;
+  height: 420px;
 }
 
 .s-left ul {
-    position: relative;
-    top: 170px;
-    left: 210px;
+  position: relative;
+  top: 170px;
+  left: 210px;
 
-    width: 400px;
+  width: 400px;
 }
 
 .s-left li {
-    font-size: 16px;
-    line-height: 15px;
+  font-size: 16px;
+  line-height: 15px;
 
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 
-    list-style-image: url('../ico/Shape.png');
+  list-style-image: url("../ico/Shape.png");
 }
 
 .s-left a {
-    color: gray;
+  color: gray;
 }
 
 #s-more {
-    position: relative;
-    left: 190px;
-    top: 170px;
-    display: block;
+  position: relative;
+  left: 190px;
+  top: 170px;
+  display: block;
 
-    width: 160px;
-    height: 42px;
-
+  width: 160px;
+  height: 42px;
 }
 
 #s-more img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .s-right {
-    z-index: 999;
+  z-index: 999;
 
-    float: left;
-    overflow: hidden;
-    box-shadow: 2px 5px 15px #888;
+  float: left;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px #888;
 }
 
 /* 

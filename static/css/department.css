@@ -1,79 +1,78 @@
-.depart{
-    position: relative;
-    height: 800px;
-    width: 100%;
+.depart {
+  position: relative;
+  height: 650px;
+  width: 100%;
 }
 
-.back_ground{
-    position: absolute;
-    top: 100px;
-    left: 120px;
-    width: 480px;
-    height: 550px;
+.back_ground {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  width: 480px;
+  height: 550px;
 }
 
-.depart_list{
-    width: 700vw;
-    height: 550px;
-    position: absolute;
+.depart_list {
+  /* Use percent width instead of vw so left offsets can be calculated from container width */
+  width: 700%;
+  height: 550px;
+  position: absolute;
 }
 
-
-.depart_slide{
-    position: relative;
-    top: 100px;
-    float: left;
-    width: 100vw;
-    height: 550px;
+.depart_slide {
+  position: relative;
+  top: 50px;
+  float: left;
+  width: 100%;
+  height: 550px;
 }
 
-.depart_slide span{
-    position: absolute;
-    display:block;
-    color: #fff;
-    top: 255px;
-    left: 180px;
-    font-size: 30px;
-    font-weight: 500;
-    width: 100px;
+.depart_slide span {
+  position: absolute;
+  display: block;
+  color: #fff;
+  top: 255px;
+  left: 170px;
+  font-size: 30px;
+  font-weight: 500;
+  width: 100px;
 }
 
-.depart_slide p{
-    position: absolute;
-    display:block;
-    color: #fff;
-    top: 310px;
-    left: 180px;
-    font-size: 17px;
-    width: 400px;
-
+.depart_slide p {
+  position: absolute;
+  display: block;
+  color: #fff;
+  top: 310px;
+  left: 170px;
+  font-size: 17px;
+  width: 350px;
 }
 
-
-.depart_slide img{
-    position: absolute;
-    left:600px;
-    width: 935.5px;
-    height: 550px;
+.depart_slide img {
+  position: absolute;
+  right: 0;
+  width: 920px;
+  height: 550px;
+  object-fit:cover;
 }
 
-.d-arrow{
-    position: absolute;
-    display: block;
-    width: 70px;
-    height: 70px;
-    top: 340px;
+.d-arrow {
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 70px;
+  top: 340px;
 }
 
-.d-btn{
-    width: 100%;
-    height: 100%;
+.d-btn {
+  width: 100%;
+  height: 100%;
 }
 
-.d_prev{
-    right: 830px;
+.d_prev {
+  right: 830px;
 }
 
-.d_next{
-    right: 0px;
+.d_next {
+  right: 0px;
 }

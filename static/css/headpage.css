@@ -1,154 +1,163 @@
 .headpage {
-    position: relative;
+  position: relative;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+/* Ensure layout doesn't collapse below 1200px which causes absolutely-positioned
+   slider elements (using large px left values) to overlap. This enforces a
+   minimum page width and prevents misalignment for the 产品/团队 sliders. */
+html,
+body {
+  min-width: 1200px;
+}
+
+/* Keep center containers from shrinking below 1200px */
+.center {
+  min-width: 1200px;
+  margin: 0 auto;
 }
 
 .headpage .back {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 50%;
-    width: 100%;
-    height: 100vh;
-    min-height: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 100vh;
+  min-height: 800px;
 
-    transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .headpage .mback,
 .headpage .mhistory {
-    display: none;
+  display: none;
 }
 
 .line {
-    width: 100%;
-    height: 0.4px;
-    background-color: #fff;
-    opacity: 0.5;
-    position: absolute;
-    z-index: 100;
-    top: 80px;
+  width: 100%;
+  height: 0.4px;
+  background-color: #fff;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+  top: 80px;
 }
 
 .headpage .pho-flying {
-    padding: 270px 0 0 30px;
-    width: 500px;
-    height: 200px;
+  padding: 270px 0 0 30px;
+  width: 500px;
+  height: 200px;
 }
 
 .headpage p {
-    font-size: 16px;
-    line-height: 36px;
+  font-size: 16px;
+  line-height: 36px;
 
-    width: 560px;
-    padding: 34px 0 64px 20px;
+  width: 560px;
+  padding: 34px 0 64px 20px;
 
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .headpage a {
-    position: relative;
-    left: 20px;
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
-    width: 90px;
-    height: 20px;
-    color: rgb(255, 255, 255);
-    /* border: 2px solid;
+  position: relative;
+  left: 20px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  width: 90px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  /* border: 2px solid;
     border-radius: 9px;
     background-color: transparent; */
 }
 
 #headpage_a {
-    background-image: url(../img/btn_join.png);
-    background-size: 110px 40px;
-
+  background-image: url(../img/btn_join.png);
+  background-size: 110px 40px;
 }
 
 #btn_joinus {
-    border: 1px solid;
-    border-radius: 50px;
-    background-color: transparent;
+  border: 1px solid;
+  border-radius: 50px;
+  background-color: transparent;
 }
 
 .product {
-    position: relative;
+  position: relative;
 
-    width: 100%;
-    height: 800px;
+  width: 100%;
+  height: 600px;
 }
 
 .product .titleone {
-    position: absolute;
-    z-index: 200;
-    top: 182px;
-    left: 106px;
+  position: absolute;
+  z-index: 200;
+  top: 182px;
+  left: 60px;
 }
-
-
 
 /* 广告条span公用样式 */
 
 .sp {
-    font-size: 30px;
+  font-size: 30px;
 
-    color: #fff;
+  color: #fff;
 }
-
 
 /* 广告条button公用样式 */
 
 .btn {
-    font-size: 24px;
+  font-size: 24px;
 
-    position: absolute;
-    right: 193px;
+  position: absolute;
+  right: 193px;
 
-    margin: 25px 0 200px 0;
-    padding: 8px 16px;
+  margin: 25px 0 200px 0;
+  padding: 8px 16px;
 
-    color: #fff;
-    border: 2px solid;
-    border-radius: 9px;
-    background-color: transparent;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 9px;
+  background-color: transparent;
 }
-
 
 /* 广告条公用样式 */
 
 .us {
-    line-height: 100px;
+  line-height: 100px;
 
-    position: relative;
+  position: relative;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    width: 100%;
-    min-width: 1200px;
-    height: 100px;
+  width: 100%;
+  min-width: 1200px;
+  height: 100px;
 
-    text-align: center;
+  text-align: center;
 }
 
 .us img {
-    position: relative;
-    left: 50%;
+  position: relative;
+  left: 50%;
 
-    transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .us a {
-    color: #fff;
+  color: #fff;
 }
 
 /* @media screen and (max-width: 768px) {

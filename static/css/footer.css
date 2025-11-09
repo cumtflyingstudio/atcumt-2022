@@ -1,107 +1,114 @@
 footer li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 footer {
-    font-size: 12px;
-    display: flex;
-    min-width: 1200px;
-    height: 154px;
-    padding-top: 44px;
-    background: #404040;
-    justify-content: space-around;
+  font-size: 12px;
+  display: flex;
+  min-width: 1200px;
+  height: 154px;
+  padding-top: 44px;
+  background: #404040;
+  justify-content: space-around;
 }
 
 .footerall {
-    display: flex;
-    width: 1200px;
-    justify-content: center;
+  display: flex;
+  width: 1200px;
+  justify-content: center;
 }
 
 footer span {
-    line-height: 20px;
+  line-height: 20px;
 }
 
 footer .box1 {
-    width: 90px;
+  width: 90px;
 }
 
 footer .box2 {
-    width: 460px;
+  width: 460px;
 }
 
 footer .box3 {
-    width: 400px;
+  width: 400px;
 }
 
 footer .box4 {
-    position: relative;
-    width: 410px;
+  position: relative;
+  width: 410px;
 }
 
 .box-title {
-    color: #fff;
-    font-size: 14px;
+  color: #fff;
+  font-size: 14px;
 }
 
 footer ul {
-    line-height: 20px;
+  line-height: 20px;
 }
 
 footer a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 .bottom-info {
-    display: flex;
-    flex-direction: column;
-    color: gray;
+  display: flex;
+  flex-direction: column;
+  color: gray;
 }
 
 .box3 li {
-    position: relative;
-    top: 26px;
+  position: relative;
+  top: 26px;
 }
 
 .box3 .box-title {
-    display: none;
+  display: none;
 }
 
 .bottom-button {
-    width: 44px;
-    margin: 0 22px;
+  width: 44px;
+  margin: 0 22px;
 }
 
 .box4-down {
-    position: absolute;
-    top: 70px;
-    left: 10px;
-    padding-top: 30px;
-    border-top: 1px solid #aaa;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  padding-top: 30px;
+  border-top: 1px solid #aaa;
 }
 
 .qrcode {
-    position: absolute;
-    top: -130px;
-    left: -20px;
-    display: none;
-    width: 120px;
-    height: 120px;
+  position: absolute;
+  top: -130px;
+  left: -20px;
+  display: none;
+  width: 120px;
+  height: 120px;
 }
 
 #weibo {
-    left: 75px;
+  left: 75px;
+}
+
+#wechat {
+  left: 170px;
 }
 
 #qqqrcode:hover .qrcode {
-    display: block;
+  display: block;
 }
 
 #wbqrcode:hover .qrcode {
-    display: block;
+  display: block;
 }
 
+#wxqrcode:hover .qrcode {
+  display: block;
+}
 
 /* 
 @media screen and (max-width: 768px)

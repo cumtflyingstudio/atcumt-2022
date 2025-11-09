@@ -1,106 +1,102 @@
 /*导航栏位置大小*/
 header {
-    position: fixed;
-    z-index: 999;
+  position: fixed;
+  z-index: 999;
 
-    width: 100%;
-    height: 80px;
+  width: 100%;
+  height: 80px;
 }
 
 header .header-back {
-    width: 100%;
-    height: 80px;
+  width: 100%;
+  height: 80px;
 
-    opacity: 0.0;
-    background: white;
+  opacity: 0;
+  background: white;
 }
 
 /*logo*/
 header .header_logo {
-    width: 50%;
+  width: 50%;
 }
 
 header .logo {
-    padding: 15px;
+  padding: 15px;
 }
 
 header .mlogo,
 .mmenu {
-    display: none;
+  display: none;
 }
-
 
 /*导航栏链接*/
 header .header_ul {
-    position: absolute;
-    top: 14px;
-    left: 40%;
+  position: absolute;
+  top: 14px;
+  left: 40%;
 
-    text-align: center;
+  text-align: center;
 }
 
 header ul {
-    line-height: 56px;
+  line-height: 56px;
 
-    text-align: center;
+  text-align: center;
 }
 
 header li {
-    display: inline;
+  display: inline;
 
-    margin-left: 40px;
-    padding: 10px 10px;
+  margin-left: 40px;
+  padding: 10px 10px;
 
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
 }
 
 /*导航栏链接样式*/
 header .link {
-    font-size: 18px;
+  font-size: 18px;
 
-    color: #fff;
+  color: #fff;
 }
 
 header .foucs:hover {
-    border: 1px solid #6cf1b0;
+  border: 1px solid #6cf1b0;
 }
 
 header .person {
-    position: absolute;
-    top: 25px;
-    right: 20px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
 }
 
 /*动态隐藏导航栏动画*/
 .slideUp {
-    -webkit-transition: transform .5s ease-in;
-    -o-transition: transform .5s ease-in;
-    transition: transform .5s ease-in;
-    -webkit-transform: translateY(-80px);
-    -ms-transform: translateY(-80px);
-    -o-transform: translateY(-80px);
-    transform: translateY(-80px);
+  -webkit-transition: transform 0.5s ease-in;
+  -o-transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  -webkit-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  -o-transform: translateY(-80px);
+  transform: translateY(-80px);
 }
-
 
 /*动态隐藏导航栏动画*/
 .slideDown {
-    -webkit-transition: transform .5s ease-out;
-    -o-transition: transform .5s ease-out;
-    transition: transform .5s ease-out;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    background: white;
-
+  -webkit-transition: transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  background: white;
 }
-
 
 /* 动态改变导航栏字体颜色 */
 .styles .link {
-    color: #000;
+  color: #000;
 }
 
 /*移动版适配样式*/
