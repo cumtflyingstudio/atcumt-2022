@@ -8,7 +8,7 @@
 - prod 生产分支：线上运行的正式版本，自动拉取更新。
 - release/2026 开发分支：2026开发，代码归档。
 
-| | |
+| ![](https://raw.githubusercontent.com/cumtflyingstudio/atcumt-pic/main/web/atcumt-2021-m.png)|![](https://raw.githubusercontent.com/cumtflyingstudio/atcumt-pic/main/web/atcumt-2021-pc.png) |
 | :-------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
 
 ## 项目简介
