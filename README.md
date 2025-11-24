@@ -3,7 +3,7 @@
 > 文档分析：Claude Sonnet 4.5
 > 生成日期：2025-11-08
 
-翔工作室主页 2012：https://www.atcumt.com/atcumt-2021
+翔工作室主页 2022：https://www.atcumt.com/atcumt-2021
 - main 分支：主分支，通常与 prod 分支保持一致。
 - prod 生产分支：线上运行的正式版本，自动拉取更新。
 - release/2026 开发分支：2026开发，代码归档。
